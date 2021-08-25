@@ -58,6 +58,10 @@ window.resetApp = async function() {
   utils.showStatus(status);
 };
 
+
+window.recordApp = function() {
+  video.record();
+};
 window.recordApp = function() {
   video.record();
 };
